@@ -1,0 +1,42 @@
+html, body {
+    background-color: black;
+}
+
+
+.carousel-control-prev-icon {
+    fill: none !important; 
+}
+
+.fs-7{
+    font-size: 0.5rem;
+}
+
+.img{
+    opacity:0.8;
+}
+
+.img:hover{
+    scale: 1.2;
+    opacity:1;
+    color: white;
+}
+
+.aa {
+    color: #007bff; 
+    text-decoration: none; 
+  }
+  
+  
+  [data-bs-theme="dark"] .aa {
+    color: #007bff; 
+  }
+  
+  
+  [data-bs-theme="dark"] .aa:visited {
+    color: #007bff; 
+  }
+
+  .px1{
+    width: 30px;
+  }
+
