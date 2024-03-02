@@ -1,0 +1,71 @@
+@import 'colors';
+
+.jumbotron{
+    background-color: $bg_hero;
+    .container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        .contenuto{
+            width: 60%;
+            
+            h1{
+                font-size: 4rem;
+                font-weight: 800;
+                width: 50%;
+                color: $testoh1;
+                margin-bottom: 0;
+                animation-name: muzzu2;
+                animation-duration: 1s;
+                animation-timing-function: ease-in;
+                
+            }
+            p{
+                color: $testo;
+                font-size: 1.2rem;
+                animation-name: muzzu2;
+                animation-duration: 1s;
+                animation-timing-function: ease-in;
+            }
+            .bottoni{
+                display: flex;
+                margin-top: 10px;
+            }
+        }
+        .img{
+            width: 30%;
+            position: relative;
+            bottom: -50px;
+            animation-name: muzzu;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+            img{
+                width: 100%;
+                border-radius: 10px;
+                border: 1px solid $testo;
+                box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+}
+@keyframes muzzu{
+    from {
+        top: 50vh;
+        opacity: 0;
+    }to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes muzzu2{
+    from {
+        top: -10vh;
+        opacity: 0;
+    }to{
+        top: 0;
+        opacity: 1;
+    }
+}
+

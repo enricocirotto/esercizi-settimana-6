@@ -1,0 +1,143 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.bottone {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  margin-right: 10px;
+  font-size: 0.7rem;
+}
+.bottone:hover {
+  transform: scale(0.9);
+}
+
+.blu {
+  background-color: #0e6cff;
+}
+
+.arancione {
+  background-color: #ff8700;
+}
+
+.verde {
+  background-color: #4caf50;
+}
+
+header {
+  background-color: #640fc5;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+header .container nav ul {
+  display: flex;
+}
+header .container nav ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+header .container nav ul li a:hover {
+  color: #ff8700 !important;
+}
+
+.jumbotron {
+  background-color: #640fc5;
+}
+.jumbotron .container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.jumbotron .container .contenuto {
+  width: 60%;
+}
+.jumbotron .container .contenuto h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  width: 50%;
+  color: #28064F;
+  margin-bottom: 0;
+  animation-name: muzzu2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+.jumbotron .container .contenuto p {
+  color: #f4f4f4;
+  font-size: 1.2rem;
+  animation-name: muzzu2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+.jumbotron .container .contenuto .bottoni {
+  display: flex;
+  margin-top: 10px;
+}
+.jumbotron .container .img {
+  width: 30%;
+  position: relative;
+  bottom: -50px;
+  animation-name: muzzu;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+.jumbotron .container .img img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #f4f4f4;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes muzzu {
+  from {
+    top: 50vh;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes muzzu2 {
+  from {
+    top: -10vh;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+main {
+  margin-top: 100px;
+}
+main .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .container .card {
+  width: 23%;
+}
+main .container .card img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
